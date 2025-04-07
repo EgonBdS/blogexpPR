@@ -7,10 +7,25 @@ window.onscroll = function() {
       btn.style.display = "none";
     }
   };
-
-  // Função para voltar ao topo
+  //para voltar ao topo
   function voltarAoTopo() {
     window.scrollTo({top: 0, behavior: 'smooth'});
   };
 
 
+  // Ampliar imagem ao clicar
+document.addEventListener("DOMContentLoaded", () => {
+    const modal = document.getElementById("ampliar");
+    const modalImg = document.getElementById("ampliar-img");
+  
+    document.querySelectorAll(".zoom").forEach(img => {
+      img.addEventListener("click", () => {
+        modal.style.display = "flex";
+        modalImg.src = img.src;
+      });
+    });
+  
+    modal.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+  });
