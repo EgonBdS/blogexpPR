@@ -24,6 +24,7 @@ body{
 }
 
 header{
+    width: 100%;
     color: white;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.726), #159A9C); /*sombra do cabeçalho*/
     text-align: center;
@@ -49,6 +50,7 @@ a:hover{
 }
 
 main{
+    width: 100%;
     background-color: white;
     /*configurações do corpo*/
     padding-top: 10px;
@@ -68,6 +70,7 @@ img{
 }
 
 footer{
+    width: 100%;
     background-color:#10494ab1;
     color: white;
     text-align: center;
