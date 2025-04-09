@@ -5,38 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
         <title>Explorando o Paraná</title>
     </head>
     <body>
         <header>
             <h1>Explorando o Paraná</h1>
              <p>Os pontos turisticos mais bonitos do Paraná, dicas, informações etc</p>
-                <nav>
-                    <p><a href="cataratas.html">Cataratas do Iguaçu</a> <a href="guaraquecaba.html">Guaraqueçaba</a> <a href="ilhadomel.html">Ilha do Mel</a> <a href="jdbotanico.html">Jardim Botânico</a> <a href="index.html">Voltar ao Início</a> <a href="#">Sobre</a></p>
+             <nav>
+                 <p><a href="cataratas.html">Cataratas do Iguaçu</a> <a href="guaraquecaba.html">Guaraqueçaba</a> <a href="ilhadomel.html">Ilha do Mel</a> <a href="jdbotanico.html">Jardim Botânico</a> <a href="index.html">Voltar ao Início</a> <a href="#">Sobre</a></p>
                 </nav>
-            
         </header>
         <div class="conteudo">
             <main>
                 <h1 id="titulo">Turismo no Paraná</h1>
                 <p>O turismo no Paraná é diversificado e atrai visitantes por suas belezas naturais, riqueza cultural e desenvolvimento urbano. O estado abriga uma das Sete Maravilhas da Natureza, as Cataratas do Iguaçu, localizadas no Parque Nacional do Iguaçu, em Foz do Iguaçu, um dos destinos turísticos mais visitados do Brasil. A capital, Curitiba, se destaca pelo planejamento urbano, parques e atrações como o Jardim Botânico. O litoral paranaense oferece belas praias, como a Ilha do Mel, ideal para ecoturismo. Além disso, a região de Vila Velha encanta com suas formações rochosas únicas, e as cidades históricas.</p>
-        
-                <picture>
-                    <img src="imagens/cataratas.jpg" alt="cataratas">
-
-                    <img src="imagens/guaraquecaba.jpg" alt="guaraquecaba">
-
-                    <img src="imagens/ilhadomel.jpg" alt="ilhadomel">
-
-                    <img src="imagens/jdbotanico.jpg" alt="jardimbotanico">
-
-                </picture>
+                <div class="carrossel">
+                    <picture class="imgcarrossel" id="img">
+                        <img src="imagens/cataratas.jpg" alt="cataratas">
+                        <img src="imagens/guaraquecaba.jpg" alt="guaraquecaba">
+                        <img src="imagens/ilhadomel.jpg" alt="ilhadomel">
+                        <img src="imagens/jdbotanico.jpg" alt="jardimbotanico">
+                    </picture>
+                </div>    
                 <button onclick="voltarAoTopo()" id="botao">Voltar ao topo</button>
             </main>
         </div>
         <footer>
             <p>Site desenvolvido por Alexander, Alvaro e Egon</p>
         </footer>
+        <script src="script.js"></script>
     </body>
     </html>
